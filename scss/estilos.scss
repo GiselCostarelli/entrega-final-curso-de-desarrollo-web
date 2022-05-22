@@ -1,0 +1,289 @@
+
+$theme-colors: (
+    "primary":  #124559,
+    "secondary":#01161E
+  ) ;
+
+
+  $btn-border-width: 0.2rem;
+  $btn-border-radius: 50rem;
+  $btn-padding-y:.4rem;
+  $btn-padding-x:1rem;
+  $btn-font-family: 'Roboto', sans-serif;
+  $btn-font-size:20px;
+  $enable-shadows:true;
+
+  $card-border-color:none;
+  
+
+@import "scss/bootstrap.scss";
+
+
+
+*{
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;  
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: xx-large;
+  
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #01161E;
+  
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: white;
+  
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; 
+}
+
+
+
+.header{
+  width: 100%;
+  height: 100%;
+  background-image: url(../imagenes/imagen-principal.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:  cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: large;
+ }
+ 
+ .header-laemrpesa{
+  
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagenes/la-empresa.png); 
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  background-size:  cover;
+  background-attachment: fixed;
+ 
+ }
+
+ .header-cursos{
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagenes/material.png); 
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  background-size:  cover;
+  background-attachment: fixed;
+ 
+ }
+
+ .header-material{
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagenes/headercursos.png); 
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  background-size:  cover;
+  background-attachment: fixed;
+ 
+ }
+ .header-contacto{
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagenes/contactos.png); 
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  background-size:  cover;
+  background-attachment: fixed;
+ 
+ }
+ .texto-laemrpesa{
+   margin-top: 150px;
+ }
+
+.fondo{
+    background-color: rgb(20, 20, 20);
+}
+
+@media (min-width: 760px) {
+    .fondo {
+    background-color: transparent !important;
+    }
+    }
+
+.logo{
+    height: 55px;
+    width: 120px;
+    margin-left: 30px;
+}
+
+.img-auto{
+  height: 50px;
+  width: 80px;
+}
+.img-clases{
+  height: 70px;
+  width: 80px;
+}
+
+.img-capacitador{
+  height: 60px;
+  width: 80px;
+}
+
+.img-1{
+  height: 100px;
+  width: 150px;
+  border: 2px;
+}
+
+nav {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  }
+
+  .nav-masthead .nav-link {
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+    
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+  }
+
+  .text-header{
+      min-height: 100vh;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .btn-primary {
+     display: flex;
+     justify-content: center;
+    }
+  }
+.img-section{  
+  height: 300px;
+}
+
+.fondo{
+  background-color: black;
+}
+
+.fondo-footer{
+  background: rgb(82,97,102);
+background: linear-gradient(180deg, rgba(82,97,102,1) 0%, rgba(21,41,48,1) 54%, rgba(14,34,41,1) 78%, rgba(1,22,30,1) 91%);
+}
+
+.fondo-footer2{
+  background-color: #01161e;
+}
+.footer .hr {
+  border: none;
+  height: 2px;
+  color: rgb(245, 245, 245);
+  width: 50%;
+}
+
+
+.img-final{
+width: 100%;
+}
+
+.fondo-contacto{
+  background-color:#EFEBEB ;
+}
+
+.zoom{
+  transition:all 400 ease;
+}
+
+.zoom :hover{
+transform: scale(1.1);
+}
+
+.container-boton{
+  background-color: #598392;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 15px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.boton{
+  width: 60px;
+  transition: ease 1s;
+}
+@media (max-width: 600px) {
+  .boton {
+  width: 30px !important;
+  }
+  }
+
+@keyframes efecto{
+  0%{
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100%{
+      box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+
+
+ 
+
+ 
+
